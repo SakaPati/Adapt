@@ -1,0 +1,38 @@
+.wrap-img {
+  position: relative;
+}
+
+.svg-wrap {
+  outline: 4px solid #fff;
+  border-radius: 50%;
+  right: 37%;
+  bottom: 5px;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  @extend %flex;
+
+  @media screen and (min-width:768px) {
+    right: 27%;
+  }
+}
+
+.svg-wrap__item {
+  position: absolute;
+}
+
+.svg-wrap--red {
+  @include icon-bg(#ff4e50);
+}
+
+.svg-wrap--yellow {
+  @include icon-bg(#ffa507);
+}
+
+.svg-wrap--green {
+  @include icon-bg(#1cd7ad);
+}
+
+.svg-wrap--blue {
+  @include icon-bg(#4e73db);
+}

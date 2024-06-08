@@ -1,11 +1,13 @@
 @import "base/reset";
 @import "base/conteiner";
+@import "abstracts/mixins";
+@import "abstracts/variables";
 @import "base/typography";
 
-@import "abstracts/variables";
 @import "abstracts/placeholders";
 
 @import "layout/header";
 @import "layout/partners";
 
 @import "components/button";
+@import "components/svg";
